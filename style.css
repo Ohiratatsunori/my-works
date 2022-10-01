@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+#header {
+  background-color: black;
+  color: white;
+  height: 7vh;
+  font-size: 1.5em;
+  padding: 0.5em;
+  display: flex;
+  align-items: center;
+}
+
+#main {
+  min-height: 85vh;
+  display: flex;
+  flex: row;
+}
+.profile {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.profile-items > div{
+  margin-bottom: 0.7em; 
+}
+.portfolio{
+  width: 50%;
+}
+.icon {
+  width: 5em;
+  height: 5em;
+  background-color:gray;
+  border-radius: 50%;
+}
+.portfolio{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.porfolio-items > div {
+  background-color: black;
+  color: aliceblue;
+  width: 10em;
+  margin-bottom: 0.7em; 
+  padding: 0.5em 1em;
+}
+
+#footer {
+  background-color: #ccc;
+  color: #333;
+  height: 5vh;
+  padding: 0 1em;
+  text-align: center;
+}
