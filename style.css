@@ -17,21 +17,28 @@ body {
 #main {
   min-height: 88vh;
   display: flex;
-  flex: row;
+  flex-wrap: wrap;
+}
+#main > div {
+  width: 50%;
+  min-width: 280px;
+  padding: 2em 1em;
 }
 .profile {
-  width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 .profile-items > div{
   margin-bottom: 0.7em; 
 }
-.portfolio{
-  width: 50%;
+.profile a {
+  text-decoration: none;
 }
+.profile .ele {
+  margin-left: 1em;
+}
+
 .icon {
   width: 5em;
   height: 5em;
@@ -39,7 +46,6 @@ body {
   border-radius: 50%;
 }
 .portfolio{
-  width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
