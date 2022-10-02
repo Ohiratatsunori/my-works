@@ -22,12 +22,14 @@ body {
 #main > div {
   width: 50%;
   min-width: 280px;
-  padding: 2em 1em;
 }
 .profile {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.profile-items {
+  padding: 2em 1em;
 }
 .profile-items > div{
   margin-bottom: 0.7em; 
@@ -50,7 +52,9 @@ body {
   align-items: center;
   justify-content: center;
 }
-
+.porfolio-items {
+  padding: 2em 1em;
+}
 .porfolio-items > div {
   background-color: black;
   color: aliceblue;
